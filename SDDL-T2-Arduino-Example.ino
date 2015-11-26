@@ -25,7 +25,7 @@ void loop() {
   // print seconds:
   if (millis() > miliseconds + 1000) {
     miliseconds = millis();
-    Serial.println(++seconds);
+    //Serial.println(++seconds);
   }
 
   //read input:
